@@ -1,1 +1,57 @@
-<h>asdfnashkdjfhkj</h>
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>闪屏</title>
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <body id="body">
+    <input type="text" id="text" />
+    <div id="div"></div>
+  </body>
+
+  <link rel="stylesheet" type="text/css" href=".css" />
+  <style type="text/css">
+    body {
+      display: block;
+      width: 100000px;
+      height: 100000px;
+    }
+    #text,
+    #div {
+      display: none;
+    }
+  </style>
+
+  <script type="text/javascript" src=".js"></script>
+  <script type="text/javascript">
+    var x = 0,
+      y = 0,
+      z = 0;
+    function Coordinate(texts, canvass) {
+      var t = document.getElementById(texts);
+      var v = document.getElementById(canvass);
+      v.onmousemove = function (event) {
+        var event = event || window.event; //标准化事件对象
+        if (event.offsetX || event.offsetY) {
+          t.value = event.offsetX + "," + event.offsetY;
+        } else if (event.layerX || event.layerY) {
+          t.value = event.layerX - 1 + "," + (event.layerY - 1);
+        }
+        x_x = event.offsetX;
+        y_y = event.offsetY;
+
+        x = x_x;
+        y = y_y;
+        z = Math.floor(Math.random() * 256);
+        document.getElementById("body").style.backgroundColor =
+          "rgb(" + x + "," + y + "," + z + ")";
+        document.getElementById("div").innerHTML = x + " , " + y + " , " + z;
+      };
+    }
+    Coordinate("text", "body");
+  </script>
+</html>
