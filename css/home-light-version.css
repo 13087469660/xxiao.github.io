@@ -1,0 +1,268 @@
+/* 主页 Light Version  */
+
+.主页-light-version {
+  color: #7a7a7a;
+  background: #ffffff;
+}
+
+.主页-light-version .main-header .header-upper .logo-box,
+.主页-light-version .main-header .bg-shape-box .bg-shape,
+.主页-light-version .main-header .bg-shape-box .bg-shape:before,
+.主页-light-version .main-header .bg-shape-box .bg-shape:after {
+  background: #ffffff;
+}
+
+.主页-light-version .main-header .header-top,
+.主页-light-version .main-header .bg-shape-box:before {
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+.主页-light-version .main-header .header-upper .logo-box {
+  border-right-color: rgba(0, 0, 0, 0.1);
+}
+
+.主页-light-version .main-header .social-links li a {
+  color: #7a7a7a;
+  background: #f5f5f5;
+}
+
+.主页-light-version .main-header .social-links li a:hover {
+  color: #ffffff;
+  background: #ff7a21;
+}
+
+.主页-light-version .main-menu .navigation > li:hover > a,
+.主页-light-version .main-menu .navigation > li.current > a {
+  color: #07070f;
+}
+
+.主页-light-version .top-pattern-layer {
+  background-image: url(../images/background/pattern-1-light-version.png);
+}
+
+.主页-light-version .bottom-pattern-layer {
+  background-image: url(../images/background/pattern-2-light-version.png);
+}
+
+.主页-light-version .top-pattern-layer-dark {
+  background-image: url(../images/background/pattern-1-dark-light-version.png);
+}
+
+.主页-light-version .bottom-pattern-layer-dark {
+  background-image: url(../images/background/pattern-2-dark-light-version.png);
+}
+
+.主页-light-version .sec-title h2 {
+  color: #07070f;
+}
+
+.主页-light-version .game-block .inner-box {
+  background: #f5f5f5;
+}
+
+.主页-light-version .game-block .inner-box:hover {
+  background: #ffffff;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.主页-light-version .game-block .image-box .link-box .link-btn .btn-title,
+.主页-light-version .game-block .image-box .link-box .link-btn:before,
+.主页-light-version .game-block .image-box .link-box .link-btn:after {
+  background: #ffffff;
+  color: #7a7a7a;
+}
+
+.主页-light-version
+  .game-block
+  .inner-box:hover
+  .image-box
+  .link-box
+  .link-btn
+  .btn-title,
+.主页-light-version
+  .game-block
+  .inner-box:hover
+  .image-box
+  .link-box
+  .link-btn:before,
+.主页-light-version
+  .game-block
+  .inner-box:hover
+  .image-box
+  .link-box
+  .link-btn:after {
+  background: #ff7a21;
+  color: #ffffff;
+}
+
+.主页-light-version .game-block .post-info {
+  border-top-color: rgba(255, 255, 255, 1);
+}
+
+.主页-light-version .game-block .inner-box:hover .post-info {
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+.主页-light-version .game-block h3 a {
+  color: #07070f;
+}
+
+.主页-light-version .game-block h3 a:hover,
+.主页-light-version .game-block .post-info li .icon {
+  color: #ff7a21;
+}
+
+.主页-light-version .sponsors-section {
+  background: #f5f5f5;
+}
+
+.主页-light-version .fact-counter .counter-title {
+  color: #7a7a7a;
+}
+
+.主页-light-version .reviews-section {
+  background: #ffffff;
+}
+
+.主页-light-version .reviews-section .text-carousel .text {
+  color: #7a7a7a;
+}
+
+.主页-light-version .reviews-section .carousel-outer .text-carousel .owl-prev,
+.主页-light-version .reviews-section .carousel-outer .text-carousel .owl-next {
+  color: #07070f;
+  opacity: 0.2;
+}
+
+.主页-light-version
+  .reviews-section
+  .carousel-outer
+  .text-carousel
+  .owl-prev:hover,
+.主页-light-version
+  .reviews-section
+  .carousel-outer
+  .text-carousel
+  .owl-next:hover {
+  opacity: 1;
+}
+
+.主页-light-version .featured-games-section {
+  padding-bottom: 100px;
+}
+
+.主页-light-version .featured-carousel-box .slide-item .content-box {
+  background: #f5f5f5;
+}
+
+.主页-light-version
+  .featured-carousel-box
+  .slide-item
+  .text-column
+  .title
+  h3
+  a {
+  color: #07070f;
+}
+
+.主页-light-version
+  .featured-carousel-box
+  .slide-item
+  .text-column
+  .title
+  h3
+  a:hover,
+.主页-light-version
+  .featured-carousel-box
+  .slide-item
+  .text-column
+  .info
+  li
+  .icon {
+  color: #ff7a21;
+}
+
+.主页-light-version
+  .featured-carousel-box
+  .slide-item
+  .text-column
+  .bottom-links {
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+.主页-light-version
+  .featured-carousel-box
+  .slide-item
+  .text-column
+  .bottom-links
+  li {
+  border-right-color: rgba(0, 0, 0, 0.1);
+}
+
+.主页-light-version
+  .featured-carousel-box
+  .slide-item
+  .text-column
+  .bottom-links
+  li
+  a {
+  color: #07070f;
+}
+
+.主页-light-version .team-section {
+  background: #f5f5f5;
+  padding: 150px 0px 120px;
+}
+
+.主页-light-version .team-section .top-pattern-layer-dark {
+  top: auto;
+  bottom: 0;
+}
+
+.主页-light-version .team-section .bottom-pattern-layer-dark {
+  bottom: auto;
+  top: 0;
+}
+
+.主页-light-version .team-block .lower-box h3 a {
+  color: #07070f;
+}
+
+.主页-light-version .team-block .lower-box h3 a:hover {
+  color: #ff7a21;
+}
+
+.主页-light-version .team-block .default-social-links li a {
+  color: #7a7a7a;
+  background: #ffffff;
+}
+
+.主页-light-version .team-block .default-social-links li a:hover {
+  color: #ffffff;
+  background: #ff7a21;
+}
+
+.主页-light-version .news-section {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.主页-light-version .main-footer {
+  padding-top: 50px;
+}
+
+.主页-light-version .main-footer .top-pattern-layer-dark {
+  top: 0;
+  background: url(../images/background/pattern-2-dark-light-version.png) center
+    top repeat-x;
+}
+
+.主页-light-version ::-webkit-input-placeholder {
+  color: #999999;
+}
+.主页-light-version ::-moz-input-placeholder {
+  color: #999999;
+}
+.主页-light-version ::-ms-input-placeholder {
+  color: #999999;
+}
